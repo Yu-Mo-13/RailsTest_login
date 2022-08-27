@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   get "login" => "users#login_form"
+
+  post "login" => "users#login"
 end
